@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+:root
+{
+    --primary-dark-50: rgba(2,3,5,0.6);
+    --bg-dark: #020207;
+}
+
+.glass
+{
+    background: linear-gradient(180deg, rgba(255,255,255, .02), rgba(255,255,255,.01));
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,.06)
+}
+
+body
+{
+    background-color: var(--bg-dark);
+}
