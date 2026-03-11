@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { dbMock } from '../../mocks/dbMock';
+
 
 @Component({
   selector: 'app-nav-bar',
