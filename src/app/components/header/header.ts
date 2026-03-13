@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { NavBar } from '../nav-bar/nav-bar';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [NavBar],
   standalone: true,
   templateUrl: './header.html',
   styleUrl: './header.css',
