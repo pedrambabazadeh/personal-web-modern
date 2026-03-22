@@ -4,6 +4,7 @@
 {
     --primary-dark-50: rgba(2,3,5,0.6);
     --bg-dark: #020207;
+    --muted : #9aa3b2;
 }
 
 .glass
@@ -12,6 +13,7 @@
     backdrop-filter: blur(6px);
     border: 1px solid rgba(255,255,255,.06)
 }
+
 
 body
 {
